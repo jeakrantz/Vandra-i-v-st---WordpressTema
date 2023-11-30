@@ -1,0 +1,62 @@
+:root {
+    --blue: #274c76;
+    --white: #fff;
+    --background: #eeeeee;
+    --lighterbackground: #f8f8f8;
+    --darkest: #292929;
+    --contrast: #f4ac13;
+    --secondcontrast: #FFD97D;
+    --textfont: Arial, Helvetica, sans-serif;
+    --headerfont: 'Bebas Neue', sans-serif;
+}
+
+* {
+    font-family: var(--textfont);
+    font-size: 1.1rem;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--headerfont);
+}
+
+h2 {
+    font-size: 220%;
+    text-align: center;
+    margin-bottom: .5em;
+    font-family: var(--headerfont);
+}
+
+h3 {
+    font-size: 200%;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    font-family: var(--headerfont);
+}
+
+h4 {
+    font-size: 170%;
+    margin-bottom: .5em;
+    font-family: var(--headerfont);
+}
+
+h5 {
+    font-size: 150%;
+    font-weight: 700;
+    font-family: var(--headerfont);
+}
+
+h6 {
+    font-size: 130%;
+    font-weight: 700;
+    font-family: var(--headerfont);
+}
+
+p {
+    font-size: 90%;
+    max-width: 40em;
+    margin: 1.5em auto;
+}
